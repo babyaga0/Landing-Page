@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #f0ad4e;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('your-cover-image.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 10px 30px;
+    background-color: #f0ad4e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cta-button:hover {
+    background-color: #ec971f;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.how-it-works-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.how-it-works-section ol {
+    text-align: left;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.how-it-works-section ol li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Video Section */
+.video-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.video-section p {
+    margin-bottom: 20px;
+}
+
+.video-section video {
+    max-width: 100%;
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.video-description h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.video-description p {
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
